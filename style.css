@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+Header {
+    background-color: gray;
+}
+
+Header::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+Footer {
+    background-color: gray;
+}
+
+Footer::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.active-page {
+    color: blue;
+}
